@@ -3,9 +3,9 @@ Apps
 
 > WARNING: Apps are intended for experimenting and learning, NOT for a production environment.
 
-![Image of Yobi](http://www.primechain.in/img/github_yobiapps.png)
+![Image of UniBit](http://www.unibit.io/img/github_apps.png)
 
-Apps are a suite of apps built in php that can be readily deployed on [Multichain](https://github.com/MultiChain). The
+Apps are a suite of apps built in php that can be readily deployed on [Multichain](https://github.com/MultiChain).
 
 
 System Requirements
@@ -16,7 +16,7 @@ An instance of [ChainzZz](https://github.com/unibitlabs/chainzZz)
 Installation
 ------------
 
-Apps are automatically installed during the [ChainzZz](https://github.com/Primechain/yobichain) setup.
+Apps are automatically installed during the [ChainzZz](https://github.com/unibitlabs/chainzZz) setup.
 
 Creating an account
 ---------------------
@@ -26,7 +26,7 @@ Creating an account
 * Enter your username and password to login.
 
 
-PrimeVault
+Vault
 ------------
 
 1. Vault is a simple blockchain powered document storage and retrieval system.
@@ -65,10 +65,10 @@ Contracts
 6. To view details of a particular contract, visit `http://<IP Address>/apps/contract_view_details.php`
 
 
-WebWallet
+Wallet
 ------------
 
-1. WebWallet is a simple blockchain powered wallet for Yourcoins, a smart asset.
+1. Wallet is a simple blockchain powered wallet for Yourcoins, a smart asset.
 
 2. To send Yourcoins, visit `http://<IP Address>/apps/ic_send_money.php`
 
@@ -77,10 +77,6 @@ WebWallet
 Live demo
 ---------
 Links to the live demo can be found here - [https://github.com/Primechain/yobichain](https://github.com/Primechain/yobichain).
-
-Planned roadmap
------
-- [ ] Secure messaging server
 
 
 Contributors
