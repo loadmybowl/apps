@@ -50,12 +50,12 @@
 							</div><br/><br/>
 
 							<div class="row">
-								<!-- <div class="col-sm-8">
+								<div class="col-sm-8">
 									<div class="checkbox-custom checkbox-default">
 										<input id="AgreeTerms" name="agreeterms" type="checkbox" required="true" />
 										<label for="AgreeTerms">I agree with <a href="Primechain Software.pdf">terms of use</a> <span class="required">*</span></label>
 									</div>
-								</div> -->
+								</div>
 								<div class="col-sm-12 text-center">
 									<input type="submit" class="btn btn-primary" value="Sign Up">
 									<!-- <button type="submit" class="btn btn-primary btn-block btn-lg visible-xs mt-lg">Sign Up</button> -->
@@ -68,7 +68,7 @@
 					</div>
 				</section>
 
-				<p class="text-center text-muted mt-md mb-md">&copy; Unlicensed 2018 Unibitlabs</p>
+				<p class="text-center text-muted mt-md mb-md"></p>
 			</div>
 
 			<div class="col-md-4"></div>
