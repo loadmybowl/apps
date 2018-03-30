@@ -333,7 +333,7 @@
 		$printDetails .= "<tr>";
 		$printDetails .= "<th>Time</th>";
 		$printDetails .= "<th>Sender / Recipient</th>";
-		$printDetails .= "<th>Amount<br/>(in Yobicoins)</th>";
+		$printDetails .= "<th>Amount<br/>(in UniBits)</th>";
 		$printDetails .= "<th>Message</th>";
 		$printDetails .= "<th></th>";
 		$printDetails .= "</tr>";
