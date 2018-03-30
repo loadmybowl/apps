@@ -5,8 +5,8 @@
 	 */
 	class AssetParams
 	{
-		const INIT_QTY = 1000;
-		const ASSET_NAME = "yourcoin";
+		const INIT_QTY = 100;
+		const ASSET_NAME = "unibit";
 	}
 
 	/**
