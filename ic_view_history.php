@@ -19,14 +19,14 @@
 
 <div class="container theme-showcase" role="main">
 
-    <h2>Web-Wallet</h2>
+    <h2>Recent Transactions</h2>
     <br>
 
     <div class="row">
         <div class="col-md-12">
             <section class="panel panel-primary">
                 <header class="panel-heading">
-                    <h2 class="panel-title">Recent Transactions</h2>
+                    <h2 class="panel-title">Last 30 Transactions</h2>
                 </header>
                 <div class="panel-body">
                         <?php
