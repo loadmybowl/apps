@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Apps</title>
+    <title>UniBit Web Wallet</title>
 
     <!-- Bootstrap core CSS -->
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
@@ -44,32 +44,16 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Apps</a>
+          <a class="navbar-brand" href="#">Home</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class="dropdown active">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Vault <span class="caret"></span></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="vault_upload.php">Upload</a></li>
-                <li><a href="vault_download.php">Download</a></li>
-              </ul>
-            </li>
-            <li class="dropdown active">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contracts <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="contract_upload.php">Create Contract</a></li>
-                <li><a href="contracts_history.php">History</a></li>
-                <li><a href="contract_invite.php">Invite Signees</a></li>
-                <li><a href="contract_sign.php">Sign Contract</a></li>
-                <li><a href="contract_view_details.php">Check Contract</a></li>
-              </ul>
-            </li>
-            <li class="dropdown active">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Web-Wallet <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="ic_send_money.php">Send Money</a></li>
-                <li><a href="ic_view_history.php">View History</a></li>
+                <li><a href="ic_overview.php">Overview</a></li>
+                <li><a href="ic_send_money.php">Send</a></li>
+                <li><a href="ic_view_history.php">History</a></li>
               </ul>
             </li>
             <li class="active"><a href="logout.php">Log out</a></li>
