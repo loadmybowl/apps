@@ -8,31 +8,50 @@
 <script src="js/yourcoin.js" type="text/javascript"></script>
 
 <script>
-
     function myTimer() {
         getNativeCurrencyBalance('txtMyAddress', 'pWalletBalance');
     }
-
     window.onload = function(){ myTimer(); setInterval(myTimer, 10000); };
-
 </script>
 
 
 <div class="container theme-showcase" role="main">
 
-    <h2>Send UniBit</h2>
+    <h2>Account Overview:</h2>
     <br>
+
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-4">
+            <div class="row">
+                <label><strong>Your Wallet Address</strong></label>
+            </div>
+            <div class="row">
+                <input id="txtMyAddress" type="text" class="form-control" size=45 value="<?php echo $_SESSION['address'] ?>" readonly="readonly" />
+            </div>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-2">
+            <div class="row">
+                <label><strong>Your User name</strong></label>
+            </div>
+            <div class="row">
+                <input id="txtMyUserName" type="text" class="form-control" size=45 value="<?php echo $_SESSION['user_name'] ?>" readonly="readonly" />
+            </div>
+        </div>
         <div class="col-md-1"></div>
         <div class="col-md-2">
             <strong>Balance</strong> - <b><label id="pWalletBalance"></label></b>
         </div>
+    </div><br/>
+
     <div class="row">
         <div class="col-md-1"></div>
 
         <div class="col-md-10">
             <section class="panel panel-primary">
                 <header class="panel-heading">
-                    <h2 class="panel-title">Send Yourcoins with Message</h2>
+                    <h2 class="panel-title">Send UniBit with Message</h2>
                 </header>
                 <div class="panel-body">
                     <form>
@@ -54,7 +73,7 @@
                         <br/>
 
                         <div class="row form-group">
-                            <label class="col-sm-3 control-label"><strong>Yourcoins </strong></label>
+                            <label class="col-sm-3 control-label"><strong>UniBit </strong></label>
                             <div class="col-sm-9">
                                 <input id="txtUnitsSWM" type="number" step="any" placeholder="" class="form-control" value="1" width=30 />
                             </div>
