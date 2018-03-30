@@ -35,12 +35,12 @@
 
 						<form method="POST" action="verify-register.php">
 							<div>
-								<label for="name">Name <span class="required">*</span></label>
+								<label for="name">Email <span class="required">*</span></label>
 								<input id="name" name="name" type="text" class="form-control input-lg" required="true" />
 							</div><br/>
 
 							<div>
-								<label for="username">User Name <span class="required">*</span></label>
+								<label for="username">UserName <span class="required">*</span></label>
 								<input id="username" name="username" type="text" class="form-control input-lg" required="true" />
 							</div><br/>
 
@@ -53,7 +53,7 @@
 								<div class="col-sm-8">
 									<div class="checkbox-custom checkbox-default">
 										<input id="AgreeTerms" name="agreeterms" type="checkbox" required="true" />
-										<label for="AgreeTerms">I agree with <a href="Primechain Software.pdf">terms of use</a> <span class="required">*</span></label>
+										<label for="AgreeTerms">I agree with <a href="ToS.pdf">Terms of Service</a> <span class="required">*</span></label>
 									</div>
 								</div>
 								<div class="col-sm-12 text-center">
