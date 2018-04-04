@@ -29,8 +29,8 @@
 
 			// Granting send and receive permissions to user
 
-			$permissions = "send".",";
-			$permissions .= "receive";
+			$permissions = "connect".",";
+			$permissions .= "send";
 			$dbHelper->grantPermissions($userName, $permissions);
 
 
