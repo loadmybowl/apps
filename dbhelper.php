@@ -335,7 +335,7 @@
 		/**
 		 *  Revokes permissions to user
 		 */
-		public function revokePermissions($userName ,$permissions2)
+		public function revokePermissions($userName ,$permissionsX)
 		{
 			try
 			{
@@ -348,7 +348,7 @@
 						throw new Exception("Invalid Address!!");
 					}
 
-					$txId = $this->mcObj->setDebug(true)->revokeFrom($this->getAdminAddress(), $address, $permissions);
+					$txId = $this->mcObj->setDebug(true)->revokeFrom($this->getAdminAddress(), $address, $permissionsX);
 
 				}
 				else
