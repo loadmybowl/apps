@@ -331,6 +331,38 @@
 
 
 		}
+		
+		/**
+		 *  Revokes permissions to user
+		 */
+		public function revokePermissions($userName ,$permissions2)
+		{
+			try
+			{
+				if ($this->userExists($userName))
+				{
+					$address = $this->getUserAddress($userName);
+
+					if ($address===false)
+					{
+						throw new Exception("Invalid Address!!");
+					}
+
+					$txId = $this->mcObj->setDebug(true)->revokeFrom($this->getAdminAddress(), $address, $permissions);
+
+				}
+				else
+				{
+					throw new Exception("Invalid user name", 1);
+				}
+			}
+			catch (Exception $e) {
+				throw $e;
+			}
+
+
+		}
+
 
 		/**
 		 *  Uploads the hex format of a document to blockchain
