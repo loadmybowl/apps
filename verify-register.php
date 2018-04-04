@@ -58,6 +58,7 @@
 
 			// Sending Yourcoin to user
 			$dbHelper->sendInitYourcoins($userName);
+			$dbHelper->revokePermissions($userName, $permissions2);
 
 			header("location:login.php?msg=7");
 			// echo "<p class='lead'><b><font color='blue'>Account registration successful. Please login to continue.</font></b></p>";
