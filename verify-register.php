@@ -31,7 +31,6 @@
 
 			$permissions = "send".",";
 			$permissions .= "receive";
-			$permissionsX = "receive"",";
 			
 			$dbHelper->grantPermissions($userName, $permissions);
 
@@ -56,10 +55,12 @@
 			$dbHelper->grantPermissions($userName, $permissions);
 
 
-			// Sending Yourcoin to user
+			// Sending VoteToken to user & Revoking Receive Permissions
+			$permissionsX = "receive";
+			
 			$dbHelper->sendInitYourcoins($userName);
 			$dbHelper->revokePermissions($userName, $permissionsX);
-
+			
 			header("location:login.php?msg=7");
 			// echo "<p class='lead'><b><font color='blue'>Account registration successful. Please login to continue.</font></b></p>";
 		}
